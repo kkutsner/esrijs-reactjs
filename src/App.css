@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding: 0px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  margin: 0px;
+  color: white;
+}
+
+.App-subheader {
+  margin: 10px;
+}
+
+.EsriMapStyle {
+  padding: 0;
+  margin: 0;
+  background-color:  #222;
+  height: calc(100vh - 190px);
+}
+
+.LoadingStyle {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  right:0;
+  background-color: #222;
+  color: white;
+  height: calc(100vh - 190px);
+}
+
+.Loading {
+  display: inline-block;
+  height: calc(100vh - 190px);
+  line-height: calc(100vh - 190px);
+  vertical-align: middle;
+}
